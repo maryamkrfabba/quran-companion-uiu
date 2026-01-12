@@ -1,0 +1,26 @@
+:root {
+  --burgundy:#7a1f3d;
+}
+
+body {
+  background:#f5f2ee;
+  font-family:Inter,sans-serif;
+  margin:0;
+}
+
+.center {
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+button {
+  margin-top:20px;
+  padding:15px 25px;
+  background:var(--burgundy);
+  color:white;
+  border:none;
+  border-radius:14px;
+}

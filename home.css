@@ -1,0 +1,76 @@
+:root {
+  --burgundy: #7a1f3d;
+  --beige: #f5f2ee;
+  --light: #ffffff;
+  --dark: #1e1e1e;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: var(--beige);
+  margin: 0;
+}
+
+.container {
+  padding: 20px;
+  padding-bottom: 90px;
+}
+
+header h3 {
+  color: var(--burgundy);
+}
+
+.card {
+  background: var(--light);
+  padding: 20px;
+  border-radius: 18px;
+  margin: 20px 0;
+}
+
+.hasanat h1 {
+  color: var(--burgundy);
+  font-size: 32px;
+}
+
+.actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.actions button {
+  padding: 15px;
+  border-radius: 14px;
+  border: none;
+  background: var(--burgundy);
+  color: white;
+  font-size: 14px;
+}
+
+.feed h4 {
+  margin-bottom: 10px;
+  color: var(--burgundy);
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+  border-top: 1px solid #ddd;
+}
+
+.bottom-nav span {
+  font-size: 22px;
+}
+
+.bottom-nav .active {
+  color: var(--burgundy);
+}

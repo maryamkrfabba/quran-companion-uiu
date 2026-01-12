@@ -1,0 +1,49 @@
+:root {
+  --burgundy:#7a1f3d;
+  --beige:#f5f2ee;
+  --light:#ffffff;
+}
+
+body {
+  background: var(--beige);
+  font-family: Inter, sans-serif;
+  margin:0;
+}
+
+.container {
+  padding:20px;
+}
+
+header {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  color:var(--burgundy);
+}
+
+.ayah {
+  background:var(--light);
+  padding:25px;
+  border-radius:18px;
+  margin:30px 0;
+  text-align:center;
+}
+
+.arabic {
+  font-size:28px;
+  line-height:2;
+}
+
+.translation {
+  margin-top:15px;
+  color:#444;
+}
+
+.focus-btn {
+  width:100%;
+  padding:15px;
+  background:var(--burgundy);
+  color:white;
+  border:none;
+  border-radius:14px;
+}

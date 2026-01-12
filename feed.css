@@ -1,0 +1,26 @@
+﻿:root {
+    --burgundy: #7a1f3d;
+}
+
+body {
+    background: #f5f2ee;
+    font-family: Inter,sans-serif;
+    margin: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+h2 {
+    color: var(--burgundy);
+}
+
+.post {
+    background: white;
+    padding: 15px;
+    border-radius: 14px;
+    margin: 15px 0;
+}body
+{
+}
